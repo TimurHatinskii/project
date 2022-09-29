@@ -1,0 +1,22 @@
+.header {
+  margin-top: 13px;
+}
+
+.header .container {
+  height: 69px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.header__left {
+  margin-left: 78px;
+  margin-right: 69px;
+}
+
+.header__center {
+  margin-right: 15px;
+}

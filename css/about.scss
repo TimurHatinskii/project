@@ -1,0 +1,32 @@
+.about {
+  display: flex;
+}
+
+.about__left {
+  margin-left: 131px;
+  margin-right: 11px;
+}
+
+.burgers-pic {
+  position: relative;
+}
+
+.decoration-pic {
+  position: absolute;
+  margin-left: -450px;
+  margin-top: 65px;
+}
+
+.about__right {
+  width: 406px;
+  margin-top: 147px;
+  align-items: center;
+}
+
+.about__text {
+  font-family: "Lifehack", "Ubuntu", "Arial", sans-serif;
+  font-size: 65px;
+  color: #FFFFFF;
+  line-height: 60px;
+  letter-spacing: -1.63px;
+}

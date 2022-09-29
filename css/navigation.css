@@ -1,0 +1,28 @@
+@charset "UTF-8";
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__item {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.nav__item::after {
+  content: "•";
+  color: #ffffff;
+  margin-right: 14px;
+  margin-left: 14px;
+}
+
+.nav__item:last-child::after {
+  display: none;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.nav__title {
+  color: #ffffff;
+}

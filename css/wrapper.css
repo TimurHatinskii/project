@@ -1,0 +1,11 @@
+.wrapper {
+  background-image: url(../background/video-bg.png);
+  height: 650px;
+  background-repeat: no-repeat;
+  background-position: top;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
